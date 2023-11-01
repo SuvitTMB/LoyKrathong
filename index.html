@@ -1,0 +1,101 @@
+<!-- https://guru.sanook.com/4405/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>LINE Retail Society</title>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PW7HPDW');</script>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicom.ico" rel="icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!--<link href="assets/css/ttb.css" rel="stylesheet">-->
+  <link href="assets/css/css.css" rel="stylesheet">
+  <link href="assets/css/w3.css" rel="stylesheet">
+  <link href="assets/css/moon.css" rel="stylesheet">
+  <link href="assets/css/hand.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/versions/2.12.0/sdk.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+</head>
+
+<!--<body style="background: url(./img/bg.jpg) fixed; background-size: cover;background-position: center;">-->
+<body class="body1" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-color: #e3f1f9;">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW7HPDW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto"><a href="index.html"><span>LINE</span> Retail Society</a></h1>
+    </div>
+  </header>
+  <div id="isLoggedIn" style="color:#fff;"></div>
+
+
+  <main id="main">
+    <div class="container" style="text-align: center;margin:200px auto 30px auto;">
+      <!--
+      <div style="margin-top:40px; margin-bottom: 10px;font-size: 20px; font-weight:600; color:#0056ff;">วันไหว้พระจันทร์</div>
+    -->
+      <div><img src="./img/happy-halloween.png" style="width:240px;"></div>
+      <div id="loading" style="margin-top:250px;"><img src="./img/loading1.gif" style="width:50px;"></div>
+
+      <div id="NoService" style="display: none;margin-top:10px;">
+        <div><img src="img/stop.png" style="width:180px;padding-top:70px; padding-bottom: 15px;"></div>
+        <div class="btn-t8" style="color:#fff;"><b>คุณไม่ได้รับสิทธิ์ในการเข้าถึงข้อมูลนี้<br>กรุณาบอกเราว่าคุณมีความจำเป็นอย่างไร</b><br>
+          <a href="mailto:suvit.cha@ttbbank.com" style="text-decoration: none;"><div class="btn-3">แจ้งเหตุผลเข้าใช้ระบบงาน</div></a>
+        </div>
+      </div>
+
+      <div id="OldSurvey" style="display: none;margin-top:100px;">
+        <div style="margin-top:200px; color:#fff; font-size: 14px; margin-bottom: 15px;"><b>LINE Retail Society</b><BR>ชวนคุณร่วมลอยกระทงและลุ้นรางวัล<br>เริ่มตั้งแต่วันนี้ ถึง 5 ธันวาคมนี้เท่านั้น</div>
+        <div style="margin:auto;">
+          <div class="btn-t1" onclick="window.location.href='loykrathong.html';" style="padding:5px 20px; border:2px solid #fff; background: #d51919; color:#fff; margin-right: 10px; border-radius: 8px; font-weight: 400;">
+            <div><img src="./img/loy-9.png" style="width:60px" class="hand"></div>
+            <div class="text_select">ลอยกระทง<br>ออนไลน์</div></div>
+          <div class="btn-t1" onclick="window.location.href='home.html';" style="padding:5px 20px; border:2px solid #fff; background: #e97d0e; color:#fff;border-radius: 8px; font-weight: 400; ">
+            <div><img src="./img/giftbox.png" style="width:60px" class="hand"></div>
+            <div class="text_select">สุ่มรับโชค<br>ลุ้นรางวัล</div></div>
+        </div>
+<!--
+        <div class="hand" id="hand"><img src="./img/kratong.png" style="width:240px;margin-left:-20px;"></div>
+        <div style="margin-top:220px;"><img src="img/text-1.png" style="width:200px;"></div>
+        <div style="margin:auto;">
+          <div class="btn-4" onclick="window.location.href='home.html';" style="margin-top:35px;padding:10px 25px;">คลิกเพื่อร่วมลอยกระทง</div>
+        </div>
+-->
+      </div>
+
+      <div id="ShowRewards" style="display: none;margin-top:30px;">
+        <div style="margin-top:200px; color:#fff; font-size: 14px; margin-bottom: 15px;"><b>LINE Retail Society</b><BR>ชวนคุณร่วมลอยกระทงและลุ้นรางวัล</div>
+        <div style="margin:auto;">
+          <div class="btn-t1" onclick="window.location.href='loykrathong.html';" style="padding:5px 20px; border:2px solid #fff; background: #d51919; color:#fff; margin-right: 10px; border-radius: 8px; font-weight: 400;">
+            <div><img src="./img/loy-9.png" style="width:60px" class="hand"></div>
+            <div class="text_select">ลอยกระทง<br>ออนไลน์</div></div>
+          <div class="btn-t1" onclick="window.location.href='home.html';" style="padding:5px 20px; border:2px solid #fff; background: #e97d0e; color:#fff;border-radius: 8px; font-weight: 400; ">
+            <div><img src="./img/giftbox.png" style="width:60px" class="hand"></div>
+            <div class="text_select">ดูรางวัล<br>ของคุณ</div></div></div>
+        </div>
+      </div>
+
+      <div id="NewMember" style="display: none;margin-top:10px;">
+        <div><img src="img/register.png" style="width:180px;padding-top:4px; padding-bottom: 15px;"></div>
+        <div class="btn-t8" style="color:#fff;"><b>คุณยังไม่เคยลงทะเบียนกับ LINE Retail Society<br>ขอให้ทำการลงทะเบียนก่อนเริ่มต้นใช้งาน</b><div>
+        <div class="btn-3" onclick="window.location.href='https://liff.line.me/1655966947-KxrAqdyp';">ลงทะเบียนเพื่อเริ่มต้นใช้งาน</div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="assets/img/favicom.ico" rel="icon">
+  <title>LINE Retail Society</title>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PW7HPDW');</script>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/button.css" rel="stylesheet">
+  <link href="assets/css/css.css" rel="stylesheet">
+  <link href="assets/css/w3.css" rel="stylesheet">
+  <link href="assets/css/moon.css" rel="stylesheet">
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <link href="assets/css/hand.css" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+
+</head>
+
+<!--<body style="background: url(./img/bg.jpg) fixed; background-size: cover;background-position: center;">-->
+<body style="background: #85392e;">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW7HPDW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  <div class="navbar1" style="background: #ffd2d2;">
+    <div style="background: #003cb2; height: 75px;border-top: 1px solid #fff;">
+      <div style="max-width: 400px; margin:auto; text-align: center;">
+        <div class="iconlink" onClick="window.location='home.html';">
+          <div><img src="./img/icon-thong.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">หน้าแรก</div>
+        </div>
+        <div class="iconlink" onClick="window.location='loykrathong.html';" style="background-color: #002d63;">
+          <div><img src="./img/icon-online.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">ออนไลน์</div>
+        </div>
+        <div class="iconlink" onClick="window.location='history.html';">
+          <div><img src="./img/icon-history.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">ประวัติ</div>
+        </div>
+        <div class="iconlink" onClick="window.location='rewards.html';">
+          <div><img src="./img/icon-gift.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">รางวัล</div>
+        </div>
+        <div class="iconlink" onClick="window.location='detail.html';">
+          <div><img src="./img/icon-detail.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">รายละเอียด</div>
+        </div>
+      </div>   
+   </div>
+  </div>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto"><a href="index.html"><span>LINE</span> Retail Society</a></h1>
+      <div class="mobile-nav-toggle d-lg-none" onclick="OpenPopMenu()">
+        <i class="icofont-navigation-menu"></i>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <center>
+      <div style="margin-top:50px;">
+        <img src="./img/bg-loy.jpg" class="img-read">
+        <div><img src="./img/loy.png" class="img-readloy hand"></div>
+        <div class="btn-t1" onclick="window.location.href='online.html';" style="padding:5px 20px; border:2px solid #fff; background: #180e98; color:#fff; border-radius: 8px; font-weight: 400; width:170px; margin-top:-60px;position: absolute;left:28%; height:53px;">
+          <div class="text_select">คลิกเพื่อเริ่ม<br>"สร้างกระทงออนไลน์"</div>
+          <div class="clr" style="height: 60px;"></div>
+        </div>
+      </div>
+    </center>
+    <div class="GameDetail" style="margin:auto; padding-top:15px; padding-bottom: 20px; height: 100%; max-width: 500px;">
+      <center>
+        <div class="btn-1" style="background: #6b2116;">ใครร่วมลอยกระทงกันบ้างนะ</div>
+        <div style="margin:5px auto 10px auto; color:#fff; font-weight:600;" id="CountUser"></div>
+      </center>
+      <div class="container">
+        <div style="margin-top:20px;">
+          <div id="ShowUser"></div>
+        </div>
+        <div class="clr"></div>
+        <div style="color:#ccc; margin:20px auto 80px auto; text-align: center; font-size: 13px;">คลิกเพื่อดูรายละเอียด</div>
+     </div>
+    </div>
+  </main>
+
+  <div id="id01" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <div id="DisplayKrathong"></div>
+    </div>
+    <center><div class="btn-t2" onclick="CloseAll()" style="margin:10px auto 15px auto;">ปิดหน้าต่าง</div></center>
+    <div class="clr" style="height: 70px;"></div>
+  </div>
+
+  <div id="menu" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4 bg-menu">
+      <div class="w3-container" style="min-height:300px;width:100%;text-align:center;padding:0px;margin-bottom: 20px;background-color: #a3cefd;">
+        <div id="MenuSociety"></div>
+      </div>
+    </div>
+    <div class="clr" style="height:40px;"></div>
+  </div>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./js/connect.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/loykrathong.js"></script>
+
+  <!--
+  <script src="js/connect.js"></script>
+  <script src="js/home.js"></script>
+-->
+</body>
+</html>
