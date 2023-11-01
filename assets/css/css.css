@@ -1804,7 +1804,7 @@ table.dataTable thead th, table.dataTable thead td {
 }
 .img-over-icon { 
   position: absolute;
-  top: 83%;
+  top: 63%;
   left:50%;
   min-height: 90px; max-height: 120px; 
   /*overflow: hidden;*/
