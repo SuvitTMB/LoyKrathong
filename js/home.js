@@ -1,1 +1,283 @@
-var _0x429d88=_0x899c;(function(_0x4f3e08,_0x3f0e4e){var _0x430f5c=_0x899c,_0x2eff72=_0x4f3e08();while(!![]){try{var _0x424cd5=-parseInt(_0x430f5c(0x150))/0x1+-parseInt(_0x430f5c(0x159))/0x2+-parseInt(_0x430f5c(0x146))/0x3*(-parseInt(_0x430f5c(0x192))/0x4)+parseInt(_0x430f5c(0x186))/0x5+parseInt(_0x430f5c(0x195))/0x6+parseInt(_0x430f5c(0x14d))/0x7*(parseInt(_0x430f5c(0x154))/0x8)+parseInt(_0x430f5c(0x13c))/0x9;if(_0x424cd5===_0x3f0e4e)break;else _0x2eff72['push'](_0x2eff72['shift']());}catch(_0x390937){_0x2eff72['push'](_0x2eff72['shift']());}}}(_0x23ea,0x9bd82));var dateString=new Date()[_0x429d88(0x164)](_0x429d88(0x187),{'timeZone':_0x429d88(0x16c)}),today=new Date(),dd=String(today['getDate']())['padStart'](0x2,'0'),mm=String(today[_0x429d88(0x15b)]()+0x1)[_0x429d88(0x155)](0x2,'0'),yyyy=today[_0x429d88(0x17f)]()+0x21f;today=dd+'/'+mm+'/'+yyyy;var cleararray='',Eid='',ArrRewards=[],NewRewards='',gcheck=0x0,Xgiftname='',XCheckRewards=0x0,XReadKrathong=0x0;$(document)[_0x429d88(0x14c)](function(){var _0x1d59c8=_0x429d88;sessionStorage[_0x1d59c8(0x173)](_0x1d59c8(0x169))==null&&(location[_0x1d59c8(0x180)]='index.html'),Connect_DB(),dbGiftRewards=firebase[_0x1d59c8(0x13d)]()[_0x1d59c8(0x162)](_0x1d59c8(0x13e)),CountRewards(),CheckData();});function _0x23ea(){var _0x48e857=['en-US','<div\x20class=\x22text-name\x22>','none','DisplayMyReward','forEach','floor','toFixed','<div\x20style=\x22margin:20px\x20auto;\x22><img\x20src=\x22./img/','<div><img\x20src=\x22./img/loy-','<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x20background:#0056ff;\x20color:#fff;\x22>กิจกรรมสุ่มรับโชค</div>','loading','1156732DiWvzU','getDate','<center><div\x20class=\x22btn-1\x22\x20style=\x22margin-top:35px;\x20margin-bottom:\x2015px;\x22>ผลการสุ่มรางวัลของคุณ</div>','2265360nwHSyZ','id02','now','getElementById','block','EmpAddress','ขณะนี้มีผู้ร่วมกิจกรรมแล้ว\x20<span\x20class=\x27font18\x27>','\x27,\x27','6972129GxUnix','firestore','Gift2023Rewards','#CountUser','EmpName_Moon2023','<span\x20class=\x22progress-right\x22><span\x20class=\x22progress-bar\x22></span></span>','#DisplayMoonCake','DisplayActive','<div\x20class=\x22btn-t2\x22\x20onclick=\x22CloseAll()\x22\x20style=\x22margin:10px\x20auto;background:#ff0000;border:2px\x20solid\x20#fff;\x20color:#fff;\x22>เลือกรายการใหม่</div>','EmpID','3MHFMhF','<div\x20style=\x22color:#fff;\x22><b>เสียใจด้วยน้า</b>\x20คุณไม่ได้รับรางวัล<br>จาก\x20...\x20<b>กิจกรรมวันลอยกระทง</b><br>แล้วมาร่วมกิจกรรมกันใหม่ในกิจกรรมหน้าน้า</div>','LinePicture','</b><br>เราจะทำการจัดส่งของรางวัลไปให้หลังจบกิจกรรมนี้</div>','get','.png\x22\x20style=\x22width:80px;\x22></div>','ready','11823eOzwUK','.png\x22\x20style=\x22max-height:200px;\x22></div>','<div\x20class=\x22clr\x22></div></center>','866132FJiCGZ','</div></div>','<div\x20class=\x22btn-t2\x22\x20onclick=\x22CloseAll()\x22\x20style=\x22margin-top:10px;\x20margin-bottom:\x2020px;\x22>ปิดหน้าต่างนี้</div>','DisplayText','2344LTHAHL','padStart','display','<div\x20style=\x22color:#fff;\x22><b>ยินดีด้วย</b>\x20คุณได้รับรางวัล<br>จาก\x20...\x20<b>กิจกรรมวันลอยกระทง</b><br>ของรางวัลที่สุ่มได้คือ\x20<b>','<div\x20class=\x22clr\x22\x20style=\x22height:\x2040px;\x22>','980678IAZlou','</center>','getMonth','id01','EmpPhone','\x27)\x22\x20class=\x22box_gift\x22><div\x20style=\x22padding:5px\x22><img\x20src=\x22./img/loy-','where','getHours','#DisplayGift','collection','giftname','toLocaleString','<div\x20class=\x22progress\x20blue\x22><span\x20class=\x22progress-left\x22>','data','.png\x22\x20style=\x22width:80%;\x22></div>','getMinutes','EmpID_Moon2023','update','giftcode','Asia/Jakarta','toString','.png\x22\x20style=\x22max-height:150px;\x22></div>','length','blink','html','<div\x20class=\x22progress-value\x22\x20style=\x22font-size:16px;\x22><div\x20class=\x22blink\x22>','getItem','<div\x20onclick=\x22OpenCake(\x27','Show','.png\x22\x20style=\x22max-height:220px;\x22></div>','test','gift-99','<span\x20class=\x22progress-bar\x22></span></span>','<div\x20class=\x22text-product\x22>','<div\x20class=\x22clr\x22\x20style=\x22height:\x2010px;\x22></div>','style','#ShowMoonCake','</div></div></div><div\x20style=\x22color:#fff;\x22>...\x20โปรดรอสักครู่\x20...</div>','getFullYear','href','LineName','then','limit','push','random','292540oWuCna'];_0x23ea=function(){return _0x48e857;};return _0x23ea();}function CheckData(){var _0x369308=_0x429d88,_0x489724='';dbGiftRewards[_0x369308(0x15f)](_0x369308(0x145),'==',sessionStorage[_0x369308(0x173)](_0x369308(0x169)))['get']()[_0x369308(0x182)](_0x8f8ff8=>{var _0x52ae5a=_0x369308;_0x8f8ff8[_0x52ae5a(0x18b)](_0x2698e6=>{var _0x43d3a1=_0x52ae5a;gcheck=0x1,Xgiftname=_0x2698e6[_0x43d3a1(0x166)]()[_0x43d3a1(0x163)],document[_0x43d3a1(0x137)](_0x43d3a1(0x191))[_0x43d3a1(0x17c)][_0x43d3a1(0x156)]='none',document[_0x43d3a1(0x137)](_0x43d3a1(0x143))['style'][_0x43d3a1(0x156)]=_0x43d3a1(0x189),document['getElementById'](_0x43d3a1(0x18a))[_0x43d3a1(0x17c)][_0x43d3a1(0x156)]='block',_0x489724+=_0x43d3a1(0x194),_0x489724+=_0x43d3a1(0x18e)+_0x2698e6['data']()[_0x43d3a1(0x16b)]+_0x43d3a1(0x14e),_0x2698e6['data']()[_0x43d3a1(0x16b)]=='gift-99'?(_0x489724+='<div\x20style=\x22color:#fff;\x22><b>เสียใจด้วยน้า</b>\x20คุณไม่ได้รับรางวัล<br>จาก\x20...\x20<b>กิจกรรมวันลอยกระทง</b><br>แล้วมาร่วมกิจกรรมกันใหม่ในกิจกรรมหน้าน้า</div>',_0x489724+='<div\x20class=\x22clr\x22></div>'):(_0x489724+=_0x43d3a1(0x157)+_0x2698e6[_0x43d3a1(0x166)]()[_0x43d3a1(0x163)]+_0x43d3a1(0x149),_0x489724+='<div\x20class=\x22clr\x22></div>'),_0x489724+=_0x43d3a1(0x15a),$('#DisplayGift')[_0x43d3a1(0x171)](_0x489724);}),gcheck==0x0&&(document[_0x52ae5a(0x137)](_0x52ae5a(0x191))[_0x52ae5a(0x17c)]['display']=_0x52ae5a(0x189),document[_0x52ae5a(0x137)](_0x52ae5a(0x143))['style'][_0x52ae5a(0x156)]=_0x52ae5a(0x138),document[_0x52ae5a(0x137)]('DisplayMyReward')[_0x52ae5a(0x17c)][_0x52ae5a(0x156)]=_0x52ae5a(0x189),sessionStorage[_0x52ae5a(0x173)]('DisplayText')==null&&(sessionStorage['setItem'](_0x52ae5a(0x153),_0x52ae5a(0x175)),document['getElementById']('id02')['style'][_0x52ae5a(0x156)]='block'));}),MoonCake();}function MoonCake(){var _0x299a79=_0x429d88,_0x256c72='',_0x51d98f=0x9;for(let _0x207db9=0x0;_0x207db9<_0x51d98f;_0x207db9++){_0x256c72+=_0x299a79(0x174)+arrKrathong[_0x207db9][0x0]+_0x299a79(0x13b)+arrKrathong[_0x207db9][0x1]+_0x299a79(0x15e)+arrKrathong[_0x207db9][0x0]+_0x299a79(0x14b),_0x256c72+=_0x299a79(0x188)+arrKrathong[_0x207db9][0x1]+_0x299a79(0x151);}$(_0x299a79(0x142))[_0x299a79(0x171)](_0x256c72);}function OpenCake(_0x1320f3,_0x4cd429){var _0xa03e22=_0x429d88,_0x145f9b='';dbGiftRewards[_0xa03e22(0x15f)]('EmpID','==',sessionStorage[_0xa03e22(0x173)](_0xa03e22(0x169)))[_0xa03e22(0x183)](0x1)[_0xa03e22(0x14a)]()[_0xa03e22(0x182)](_0x4f43ad=>{var _0x2b7e01=_0xa03e22;_0x4f43ad[_0x2b7e01(0x18b)](_0x4fe834=>{var _0x2f0e00=_0x2b7e01;gcheck=0x1,_0x145f9b+='<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x20background:#0056ff;\x20color:#fff;\x22>ผลการสุ่มรางวัลของคุณ</div>',_0x145f9b+='<div\x20style=\x22margin:20px\x20auto;\x22><img\x20src=\x22./img/'+_0x4fe834[_0x2f0e00(0x166)]()[_0x2f0e00(0x16b)]+_0x2f0e00(0x176),_0x4fe834[_0x2f0e00(0x166)]()[_0x2f0e00(0x16b)]==_0x2f0e00(0x178)?(_0x145f9b+=_0x2f0e00(0x147),_0x145f9b+=_0x2f0e00(0x152),_0x145f9b+=_0x2f0e00(0x14f)):(_0x145f9b+='<div\x20style=\x22color:#fff;\x22><b>ยินดีด้วย</b>\x20คุณได้รับรางวัล<br>จาก\x20...\x20<b>กิจกรรมวันลอยกระทง</b><br>ของรางวัลที่สุ่มได้คือ\x20<b>'+_0x4fe834[_0x2f0e00(0x166)]()[_0x2f0e00(0x163)]+_0x2f0e00(0x149),_0x145f9b+=_0x2f0e00(0x152),_0x145f9b+='<div\x20class=\x22clr\x22></div></center>'),$(_0x2f0e00(0x17d))['html'](_0x145f9b),document[_0x2f0e00(0x137)]('id01')[_0x2f0e00(0x17c)][_0x2f0e00(0x156)]=_0x2f0e00(0x138);}),gcheck==0x0&&(_0x145f9b+=_0x2b7e01(0x190),_0x145f9b+=_0x2b7e01(0x18f)+_0x1320f3+_0x2b7e01(0x167),_0x145f9b+=_0x2b7e01(0x17a)+_0x4cd429+'</div>',_0x145f9b+='<div\x20class=\x22btn-t2\x22\x20onclick=\x22CheckRewards()\x22\x20style=\x22margin:10px\x20auto;background:#12ca3c;\x20margin-right:10px;border:2px\x20solid\x20#fff;\x22>คลิกสุ่มรับโชค</div>',_0x145f9b+=_0x2b7e01(0x144),_0x145f9b+=_0x2b7e01(0x17b),$('#ShowMoonCake')['html'](_0x145f9b),document['getElementById'](_0x2b7e01(0x15c))[_0x2b7e01(0x17c)][_0x2b7e01(0x156)]=_0x2b7e01(0x138));});}function CheckRewards(){var _0x2ec0f2=_0x429d88,_0x4debc9='',_0x5be5cf='กำลังสุ่มรางวัล';$(_0x2ec0f2(0x17d))[_0x2ec0f2(0x171)](cleararray),document['getElementById'](_0x2ec0f2(0x143))[_0x2ec0f2(0x17c)][_0x2ec0f2(0x156)]=_0x2ec0f2(0x189),document[_0x2ec0f2(0x137)](_0x2ec0f2(0x18a))[_0x2ec0f2(0x17c)][_0x2ec0f2(0x156)]=_0x2ec0f2(0x189),$(_0x2ec0f2(0x161))[_0x2ec0f2(0x171)](cleararray),_0x4debc9+='<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x20background:#0056ff;\x20color:#fff;\x22>เรากำลังสุ่มรางวัลของคุณ</div>',_0x4debc9+=_0x2ec0f2(0x165),_0x4debc9+=_0x2ec0f2(0x179),_0x4debc9+=_0x2ec0f2(0x141),_0x4debc9+=_0x2ec0f2(0x172)+_0x5be5cf[_0x2ec0f2(0x170)]()+_0x2ec0f2(0x17e),_0x4debc9+=_0x2ec0f2(0x158),$('#ShowMoonCake')[_0x2ec0f2(0x171)](_0x4debc9);var _0x4833bf=setTimeout(RandomRewards,0x3e8);}function CountRewards(){var _0x1d9baa=_0x429d88,_0x37858c=0x0;dbGiftRewards[_0x1d9baa(0x15f)](_0x1d9baa(0x145),'!=','')[_0x1d9baa(0x14a)]()[_0x1d9baa(0x182)](_0x2b0b6c=>{var _0x48455b=_0x1d9baa;_0x2b0b6c[_0x48455b(0x18b)](_0x311ce0=>{_0x37858c=_0x37858c+0x1;}),$(_0x48455b(0x13f))[_0x48455b(0x171)](_0x48455b(0x13a)+addCommas(_0x37858c)+'</span>\x20คน'),console['log'](_0x37858c);});}function RandomRewards(){var _0xd2d2b1=_0x429d88,_0x4794cb=0x0;Eidewards='',dbGiftRewards[_0xd2d2b1(0x15f)](_0xd2d2b1(0x145),'==','')[_0xd2d2b1(0x14a)]()['then'](_0x53bd39=>{var _0x4bb4e8=_0xd2d2b1;_0x53bd39[_0x4bb4e8(0x18b)](_0x48530b=>{var _0x404469=_0x4bb4e8;_0x4794cb=_0x4794cb+0x1,ArrRewards[_0x404469(0x184)]([_0x48530b['id'],_0x48530b[_0x404469(0x166)]()[_0x404469(0x163)],_0x48530b[_0x404469(0x166)]()[_0x404469(0x16b)]]);}),NewRewards=random_item(ArrRewards),Eid=NewRewards[0x0],NewRewards[0x2]!=_0x4bb4e8(0x178)&&(XCheckRewards=0x1),UpdateRewards();});}function ShowRewards(){var _0x4b3bdc=_0x429d88;XCheckRewards=0x0;var _0x91339a='',_0x20a7ff=setTimeout(CheckData,0x5dc);_0x91339a+='<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x20background:#0056ff;\x20color:#fff;\x22>ผลการสุ่มรางวัลของคุณ</div>',_0x91339a+=_0x4b3bdc(0x18e)+NewRewards[0x2]+_0x4b3bdc(0x16e),NewRewards[0x2]==_0x4b3bdc(0x178)?_0x91339a+=_0x4b3bdc(0x147):_0x91339a+='<div\x20style=\x22color:#fff;\x22><b>ยินดีด้วย</b>\x20คุณได้รับรางวัล<br>จาก\x20...\x20<b>กิจกรรมวันลอยกระทง</b><br>ของรางวัลที่สุ่มได้คือ\x20<b>'+NewRewards[0x1]+_0x4b3bdc(0x149),_0x91339a+=_0x4b3bdc(0x152),_0x91339a+=_0x4b3bdc(0x14f),$(_0x4b3bdc(0x17d))[_0x4b3bdc(0x171)](_0x91339a),CountRewards();}function UpdateRewards(){var _0x500718=_0x429d88;NewDate();var _0x15283c=Math['round'](Date[_0x500718(0x197)]()/0x3e8);dbGiftRewards['doc'](Eid)[_0x500718(0x16a)]({'LineID':sessionStorage[_0x500718(0x173)]('LineID'),'LineName':sessionStorage[_0x500718(0x173)](_0x500718(0x181)),'LinePicture':sessionStorage[_0x500718(0x173)](_0x500718(0x148)),'EmpID':sessionStorage['getItem'](_0x500718(0x169)),'EmpName':sessionStorage['getItem'](_0x500718(0x140)),'Phone':sessionStorage[_0x500718(0x173)](_0x500718(0x15d)),'address':sessionStorage['getItem'](_0x500718(0x139)),'ResultQuiz':NewRewards[0x2],'StatusSend':XCheckRewards,'DateRegister':dateString});var _0x6a30dd=setTimeout(ShowRewards,0x7d0);}function NewDate(){var _0xcb6c0a=_0x429d88,_0x131872=new Date(),_0xd09bef=_0x131872[_0xcb6c0a(0x193)]()+'',_0xdbdf6=_0x131872[_0xcb6c0a(0x15b)]()+0x1+'',_0x2739d2=_0x131872[_0xcb6c0a(0x17f)]()+'',_0x3f8469=_0x131872[_0xcb6c0a(0x160)]()+'',_0x35f526=_0x131872[_0xcb6c0a(0x168)]()+'',_0xc8536d=_0x131872['getSeconds']()+'',_0x35e08d=_0x3f8469>=0xc?'PM':'AM';_0xd09bef=checkZero(_0xd09bef),_0xdbdf6=checkZero(_0xdbdf6),_0x2739d2=checkZero(_0x2739d2),_0x3f8469=checkZero(_0x3f8469),_0x35f526=checkZero(_0x35f526),_0xc8536d=checkZero(_0xc8536d),dateString=_0xd09bef+'/'+_0xdbdf6+'/'+_0x2739d2+'\x20'+_0x3f8469+':'+_0x35f526+':'+_0xc8536d+'\x20'+_0x35e08d;}function checkZero(_0x55f0fb){var _0x44a6b5=_0x429d88;return _0x55f0fb[_0x44a6b5(0x16f)]==0x1&&(_0x55f0fb='0'+_0x55f0fb),_0x55f0fb;}function addCommas(_0x7f146f){var _0x5386cc=_0x429d88;_0x7f146f+='',x=_0x7f146f['split']('.'),x1=x[0x0],x2=x[_0x5386cc(0x16f)]>0x1?'.'+x[0x1]:'';var _0x59a925=/(\d+)(\d{3})/;while(_0x59a925[_0x5386cc(0x177)](x1)){x1=x1['replace'](_0x59a925,'$1'+','+'$2');}return x1+x2;}function numberWithCommas(_0x43b567){var _0x6bfdea=_0x429d88,_0x587817=_0x43b567,_0x2250e6=parseFloat(_0x587817)[_0x6bfdea(0x18d)](0x2);return formattedString=_0x2250e6[_0x6bfdea(0x16d)]()['replace'](/\B(?=(\d{3})+(?!\d))/g,',');}function GotoRewards(){var _0x2ac08c=_0x429d88;location[_0x2ac08c(0x180)]='rewards.html';}function random_item(_0x3367b3){var _0x545754=_0x429d88;return _0x3367b3[Math[_0x545754(0x18c)](Math[_0x545754(0x185)]()*_0x3367b3[_0x545754(0x16f)])];}function _0x899c(_0x5bf14c,_0x341cf0){var _0x23ea7c=_0x23ea();return _0x899c=function(_0x899ccd,_0x2ae760){_0x899ccd=_0x899ccd-0x137;var _0x489dbc=_0x23ea7c[_0x899ccd];return _0x489dbc;},_0x899c(_0x5bf14c,_0x341cf0);}function CloseAll(){var _0x28aed9=_0x429d88;document[_0x28aed9(0x137)](_0x28aed9(0x15c))[_0x28aed9(0x17c)][_0x28aed9(0x156)]=_0x28aed9(0x189),document[_0x28aed9(0x137)](_0x28aed9(0x196))[_0x28aed9(0x17c)][_0x28aed9(0x156)]='none';}
+var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear()+543;
+today = dd + '/' + mm + '/' + yyyy;
+var cleararray = "";
+var Eid = "";
+var ArrRewards = [];
+var NewRewards = "";
+var gcheck = 0;
+var Xgiftname = "";
+var XCheckRewards = 0;
+var XReadKrathong = 0;
+//var XSelect = 0;
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpID_Moon2023")==null) { location.href = "index.html"; }
+  Connect_DB();
+  dbGiftRewards = firebase.firestore().collection("Gift2023Rewards");
+  OpenMP4();
+});
+
+
+function OpenMP4() {
+  if(sessionStorage.getItem("DisplayVideo")==null) { 
+    sessionStorage.setItem("DisplayVideo", 'Video');
+    var vid = document.getElementById("video");
+    vid.autoplay = true;
+    vid.load();
+    document.getElementById('id03').style.display='block';
+  }
+  CountRewards();
+  //CheckData();
+}
+
+
+function CheckData() {
+  var str = "";
+  gcheck = 0;
+  dbGiftRewards.where('EmpID','==',sessionStorage.getItem("EmpID_Moon2023"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      gcheck = 1;
+      Xgiftname = doc.data().giftname;
+      document.getElementById('loading').style.display='none';
+      document.getElementById('DisplayActive').style.display='none';
+      document.getElementById('DisplayMyReward').style.display='block';
+      str +='<center><div class="btn-1" style="margin-top:35px; margin-bottom: 15px;">ผลการสุ่มรางวัลของคุณ</div>';
+      str +='<div style="margin:20px auto;"><img src="./img/'+ doc.data().giftcode +'.png" style="max-height:200px;"></div>';
+      if(doc.data().giftcode=="gift-99") {
+        str +='<div style="color:#fff;"><b>เสียใจด้วยน้า</b> คุณไม่ได้รับรางวัล<br>จาก ... <b>กิจกรรมวันลอยกระทง</b><br>แล้วมาร่วมกิจกรรมกันใหม่ในกิจกรรมหน้าน้า</div>';
+        str +='<div class="clr"></div>';
+      } else {
+        str +='<div style="color:#fff;"><b>ยินดีด้วย</b> คุณได้รับรางวัล<br>จาก ... <b>กิจกรรมวันลอยกระทง</b><br>ของรางวัลที่สุ่มได้คือ <b>'+ doc.data().giftname +'</b><br>เราจะทำการจัดส่งของรางวัลไปให้หลังจบกิจกรรมนี้</div>';
+        str +='<div class="clr"></div>';
+      }
+      str +='</center>';
+      $("#DisplayGift").html(str);
+    });
+    if(gcheck==0) {
+      document.getElementById('loading').style.display='none';
+      document.getElementById('DisplayActive').style.display='block';
+      document.getElementById('DisplayMyReward').style.display='none';
+      if(sessionStorage.getItem("DisplayText")==null) { 
+        sessionStorage.setItem("DisplayText", 'Show');
+        document.getElementById('id02').style.display='block';
+      }
+    }
+  });
+  MoonCake();
+}
+
+
+function MoonCake() {
+  var str = "";
+  var MaxProduct = 9;
+  for (let i = 0; i < MaxProduct; i++) {
+    str += '<div onclick="OpenCake(\''+ arrKrathong[i][0] +'\',\''+ arrKrathong[i][1] +'\')" class="box_gift"><div style="padding:5px"><img src="./img/loy-'+ arrKrathong[i][0] +'.png" style="width:80px;"></div>';
+    str += '<div class="text-name">'+ arrKrathong[i][1] +'</div></div>';
+  }
+  $("#DisplayMoonCake").html(str);
+}
+
+
+function OpenCake(n,x) {
+  var str = "";
+  dbGiftRewards.where('EmpID','==',sessionStorage.getItem("EmpID_Moon2023"))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      gcheck = 1;
+      str +='<div class="btn-1" style="margin-top:25px; margin-bottom: 15px; background:#0056ff; color:#fff;">ผลการสุ่มรางวัลของคุณ</div>';
+      str +='<div style="margin:20px auto;"><img src="./img/'+ doc.data().giftcode +'.png" style="max-height:220px;"></div>';
+      if(doc.data().giftcode=="gift-99") {
+        str +='<div style="color:#fff;"><b>เสียใจด้วยน้า</b> คุณไม่ได้รับรางวัล<br>จาก ... <b>กิจกรรมวันลอยกระทง</b><br>แล้วมาร่วมกิจกรรมกันใหม่ในกิจกรรมหน้าน้า</div>';
+        str +='<div class="btn-t2" onclick="CloseAll()" style="margin-top:10px; margin-bottom:20px;">ปิดหน้าต่างนี้</div>';
+        str +='<div class="clr"></div></center>';
+      } else {
+        str +='<div style="color:#fff;"><b>ยินดีด้วย</b> คุณได้รับรางวัล<br>จาก ... <b>กิจกรรมวันลอยกระทง</b><br>ของรางวัลที่สุ่มได้คือ <b>'+ doc.data().giftname +'</b><br>เราจะทำการจัดส่งของรางวัลไปให้หลังจบกิจกรรมนี้</div>';
+        str +='<div class="btn-t2" onclick="CloseAll()" style="margin-top:10px; margin-bottom:20px;">ปิดหน้าต่างนี้</div>';
+        str +='<div class="clr"></div></center>';
+      }
+      $("#ShowMoonCake").html(str);
+      document.getElementById('id01').style.display='block';
+    });
+    if(gcheck==0) {
+      str +='<div class="btn-1" style="margin-top:25px; margin-bottom: 15px; background:#0056ff; color:#fff;">กิจกรรมสุ่มรับโชค</div>';
+      str +='<div><img src="./img/loy-'+ n +'.png" style="width:80%;"></div>';
+      str +='<div class="text-product">'+ x +'</div>';
+      str +='<div class="btn-t2" onclick="CloseAll()" style="margin:10px auto;background:#ff0000;margin-right:10px;border:2px solid #fff; color:#fff;">เลือกรายการใหม่</div>';
+      str +='<div class="btn-t2" onclick="CheckRewards()" style="margin:10px auto;background:#12ca3c; border:2px solid #fff;">คลิกสุ่มรับโชค</div>';
+      str +='<div class="clr" style="height: 10px;"></div>';
+      $("#ShowMoonCake").html(str);
+      document.getElementById('id01').style.display='block';
+    }
+  });
+}
+
+
+function CheckRewards() {
+  var str = "";
+  var TxtRandom = "กำลังสุ่มรางวัล";
+  $("#ShowMoonCake").html(cleararray);
+  document.getElementById('DisplayActive').style.display='none';
+  document.getElementById('DisplayMyReward').style.display='none';
+  $("#DisplayGift").html(cleararray);
+  str +='<div class="btn-1" style="margin-top:25px; margin-bottom: 15px; background:#0056ff; color:#fff;">เรากำลังสุ่มรางวัลของคุณ</div>';
+  str +='<div class="progress blue"><span class="progress-left">';
+  str +='<span class="progress-bar"></span></span>';
+  str +='<span class="progress-right"><span class="progress-bar"></span></span>';
+  str +='<div class="progress-value" style="font-size:16px;"><div class="blink">'+ TxtRandom.blink() +'</div></div></div><div style="color:#fff;">... โปรดรอสักครู่ ...</div>';
+  str +='<div class="clr" style="height: 40px;">';
+  $("#ShowMoonCake").html(str);
+  var myTimeout = setTimeout(RandomRewards, 1000);
+  //CountRewards();
+}
+
+
+function CountRewards() { 
+  var i = 0;
+  dbGiftRewards.where('EmpID','!=','')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=>{
+      i = i+1;
+    });
+    $("#CountUser").html("ขณะนี้มีผู้ร่วมกิจกรรมแล้ว <span class='font18'>"+ addCommas(i) +"</span> คน");
+    //console.log(i);
+  });  
+}
+
+
+function RandomRewards() { 
+  var i = 0;
+  Eidewards = "";
+  dbGiftRewards.where('EmpID','==','')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=>{
+      i = i+1;
+      ArrRewards.push([doc.id, doc.data().giftname, doc.data().giftcode]);
+    });
+    NewRewards = random_item(ArrRewards);
+    Eid = NewRewards[0];
+    if(NewRewards[2]!="gift-99") {
+      XCheckRewards = 1;
+    }
+    //console.log("Code = "+XCheckRewards);
+    //console.log(ArrRewards);
+    //console.log(NewRewards);
+    //console.log(Eidewards);
+    UpdateRewards();
+  });  
+}
+
+
+function ShowRewards() {
+  XCheckRewards = 0;
+  var str = "";
+  var myTimeout = setTimeout(CheckData, 1500);
+  str +='<div class="btn-1" style="margin-top:25px; margin-bottom: 15px; background:#0056ff; color:#fff;">ผลการสุ่มรางวัลของคุณ</div>';
+  str +='<div style="margin:20px auto;"><img src="./img/'+ NewRewards[2] +'.png" style="max-height:150px;"></div>';
+  if(NewRewards[2]=="gift-99") {
+    str +='<div style="color:#fff;"><b>เสียใจด้วยน้า</b> คุณไม่ได้รับรางวัล<br>จาก ... <b>กิจกรรมวันลอยกระทง</b><br>แล้วมาร่วมกิจกรรมกันใหม่ในกิจกรรมหน้าน้า</div>';
+  } else {
+    str +='<div style="color:#fff;"><b>ยินดีด้วย</b> คุณได้รับรางวัล<br>จาก ... <b>กิจกรรมวันลอยกระทง</b><br>ของรางวัลที่สุ่มได้คือ <b>'+ NewRewards[1] +'</b><br>เราจะทำการจัดส่งของรางวัลไปให้หลังจบกิจกรรมนี้</div>';
+  }
+  str +='<div class="btn-t2" onclick="CloseAll()" style="margin-top:10px; margin-bottom:20px;">ปิดหน้าต่างนี้</div>';
+  str +='<div class="clr"></div></center>';
+  $("#ShowMoonCake").html(str);
+  CountRewards();
+}
+
+
+function UpdateRewards() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbGiftRewards.doc(Eid).update({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID_Moon2023"),
+    EmpName : sessionStorage.getItem("EmpName_Moon2023"),
+    Phone : sessionStorage.getItem("EmpPhone"),
+    address : sessionStorage.getItem("EmpAddress"),
+    ResultQuiz : NewRewards[2],
+    StatusSend : XCheckRewards,
+    DateRegister : dateString,
+  });
+  var myTimeout = setTimeout(ShowRewards, 2000);
+  //ShowRewards();
+}
+
+
+
+function NewDate() {
+  var today = new Date();
+  var day = today.getDate() + "";
+  var month = (today.getMonth() + 1) + "";
+  var year = today.getFullYear() + "";
+  var hour = today.getHours() + "";
+  var minutes = today.getMinutes() + "";
+  var seconds = today.getSeconds() + "";
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  day = checkZero(day);
+  month = checkZero(month);
+  year = checkZero(year);
+  hour = checkZero(hour);
+  minutes = checkZero(minutes);
+  seconds = checkZero(seconds);
+  dateString = day + "/" + month + "/" + year + " " + hour + ":" + minutes + ":" + seconds +" "+ ampm;
+}
+
+function checkZero(data){
+  if(data.length == 1){
+    data = "0" + data;
+  }
+  return data;
+}
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}
+
+
+function numberWithCommas(num) {
+  var valueString=num; //can be 1500.0 or 1500.00 
+  var amount=parseFloat(valueString).toFixed(2);
+  return formattedString= amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function GotoRewards() {
+  location.href = "rewards.html";
+}
+
+
+function random_item(items) {
+  return items[Math.floor(Math.random()*items.length)];   
+}
+
+
+function CloseAll() {
+  document.getElementById('id01').style.display='none';
+  document.getElementById('id02').style.display='none';
+  document.getElementById('id03').style.display='none';
+}
+
+
+function CloseVDO() {
+  var video = document.querySelector("#video");
+  video.pause();
+  video.currentTime = 0;
+  document.getElementById('id03').style.display='none';
+  CheckData();
+}
